@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KidsStore</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+    }
+
+    .rootpage {
+      background: linear-gradient(140deg, #79364c, #3d5d80);
+      padding: 40px;
+      min-height: 100%;
+      color: #fff;
+    }
+
+    .rootpage__title {
+      margin-bottom: 20px;
+    }
+
+    .rootpage__label {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+
+    .rootpage__list {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .rootpage__item {}
+
+    .rootpage__link {
+      text-decoration: none;
+      color: inherit;
+      font-weight: 500;
+    }
+
+    .rootpage__link:visited {
+      color: #c9d282;
+      text-decoration: underline;
+    }
+
+    @media (any-hover: hover) {
+      .rootpage__link:hover {
+        text-decoration: underline;
+      }
+    }
+
+    @media(max-width: 767px) {
+      .rootpage {
+        padding: 20px;
+      }
+
+      .rootpage__title {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="rootpage">
+    <div class="rootpage__body">
+      <h1 class="rootpage__title">Вёрстка «KidsStore»</h1>
+      <p class="rootpage__label">
+        Готовые страницы:
+      </p>
+      <ol class="rootpage__list">
+        <li class="rootpage__item"><a class="rootpage__link" href="home.html" target="_blank">Главная</a></li>
+        <li class="rootpage__item"><a class="rootpage__link" href="catalog.html" target="_blank">Каталог</a></li>
+        <li class="rootpage__item"><a class="rootpage__link" href="product-page.html" target="_blank">Страница
+            товара</a></li>
+        <li class="rootpage__item"><a class="rootpage__link" href="login-page.html" target="_blank">Страница входа</a>
+        </li>
+        <li class="rootpage__item"><a class="rootpage__link" href="signup-page.html" target="_blank">Страница
+            регистрации</a></li>
+        <li class="rootpage__item"><a class="rootpage__link" href="cart.html" target="_blank">Корзина</a></li>
+        <li class="rootpage__item"><a class="rootpage__link" href="checkout.html" target="_blank">Оформление заказа</a>
+        </li>
+        <li class="rootpage__item"><a class="rootpage__link" href="thanks.html" target="_blank">Спасибо</a></li>
+      </ol>
+    </div>
+  </div>
+</body>
+
+</html>
